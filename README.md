@@ -1,4 +1,5 @@
 # Web前端规范
+http://sideeffect.kr/popularconvention#javascript
 
 ##目录
 
