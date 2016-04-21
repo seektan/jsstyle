@@ -493,7 +493,8 @@ if (condition) {
 ```
 - Code Guide by @AlloyTeam  http://alloyteam.github.io/CodeGuide/#javascript
 - Airbnb JavaScript Style Guide() { https://github.com/airbnb/javascript
-
+- 书写具备一致风格、通俗易懂 JavaScript 的原则 https://github.com/rwaldron/idiomatic.js/tree/master/translations/zh_CN
+- Google JavaScript Style Guide https://google.github.io/styleguide/javascriptguide.xml
 - JavaScript coding standards https://www.drupal.org/node/172169
 - JavaScript Style Guides And Beautifiers https://addyosmani.com/blog/javascript-style-guides-and-beautifiers/
 - Code Conventions for the JavaScript Programming Language http://javascript.crockford.com/code.html
