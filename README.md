@@ -30,8 +30,7 @@
 
 ##通用
 *  缩进使用soft tab（4个空格），可使用编辑器自动转换
-
-##HTML5 doctype
+*  HTML5 doctype
 ```
 <!DOCTYPE html>
 <html>
