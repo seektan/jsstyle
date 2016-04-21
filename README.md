@@ -491,17 +491,10 @@ if (condition) {
 
 }
 ```
-Code Guide by @AlloyTeam
-http://alloyteam.github.io/CodeGuide/#javascript
+- Code Guide by @AlloyTeam  http://alloyteam.github.io/CodeGuide/#javascript
+- Airbnb JavaScript Style Guide() { https://github.com/airbnb/javascript
 
-https://github.com/airbnb/javascript
-Airbnb JavaScript Style Guide() {
-
-JavaScript coding standards
-https://www.drupal.org/node/172169
-JavaScript Style Guides And Beautifiers
-https://addyosmani.com/blog/javascript-style-guides-and-beautifiers/
-Code Conventions for the JavaScript Programming Language
-http://javascript.crockford.com/code.html
-Coding style
-https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Coding_Style
+- JavaScript coding standards https://www.drupal.org/node/172169
+- JavaScript Style Guides And Beautifiers https://addyosmani.com/blog/javascript-style-guides-and-beautifiers/
+- Code Conventions for the JavaScript Programming Language http://javascript.crockford.com/code.html
+- Coding style https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Coding_Style
