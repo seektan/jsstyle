@@ -41,8 +41,27 @@
 
 ##javascript
 - [ ] **单行**长度不要超过80
+```
+if (x < y) {
+    x += 10;
+} else {
+    x += 1;
+}
+```
 
 - [ ] 以下几种情况后需加**分号**：变量声明、表达式、return、throw、break、continue、do-while
+```
+/* var declaration */
+var x = 1;
+
+/* expression statement */
+x++;
+
+/* do-while */
+do {
+    x++;
+} while (x < 10);
+```
 
 - [ ] 以下几种情况需要**空格**：
   - 二元运算符前后
