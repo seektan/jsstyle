@@ -1,8 +1,24 @@
 # Web前端规范
 http://sideeffect.kr/popularconvention#javascript
 
-##目录
+* 文件路径
+* 文件名
+* 通用
+* javascript
+	* 分号
+	* 空格
+	* 空行
+	* 换行
+	* 注释
+	* 引号
+	* 变量命名
+	* 函数
+	* 数组、对象
+	* 括号
+	* undefined
+	* 其他
 
+##文件路径
 ###大界面
 - frames
 - common
@@ -430,7 +446,7 @@ if (typeof person === 'undefined') {
 }
 ```
 
-### 杂项
+### 其他
   - 不要混用tab和space；
   - 不要在一处使用多个tab或space；
   - 对上下文this的引用只能使用'_this', 'that', 'self'其中一个来命名；
