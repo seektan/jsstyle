@@ -2,22 +2,22 @@
 
 ##目录
 ###大界面
-frames
-common
-center
-  gamelibrary
-  gift
-  privilege
-  toolbox
-sociality
+- frames
+- common
+- center
+	- gamelibrary
+	- gift
+	- privilege
+	- toolbox
+	- sociality
 ###助手
-pallas
-cf
-dnf
+- pallas
+- cf
+- dnf
 
 目录与上报路径统一
-- [x] /gamelibrary/mmog.html
-- [x] \center\plat\gamelibrary\MMOG.html
+- [] /gamelibrary/mmog.html
+- [] \center\plat\gamelibrary\MMOG.html
 
 ##文件名
 小写、下划线
@@ -31,12 +31,12 @@ dnf
 
 ##HTML
 ###HTML5 doctype
-`
+```
 <!DOCTYPE html>
 <html>
 	...
 </html>
-`
+```
 
 ##javascript
 - [x] 单行长度不要超过80
