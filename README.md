@@ -1,5 +1,5 @@
 # Web前端规范
-http://sideeffect.kr/popularconvention#javascript
+Github上的统计数据 http://sideeffect.kr/popularconvention#javascript
 
 * 文件路径
 * 文件名
