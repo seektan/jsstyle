@@ -3,7 +3,8 @@ Github上的统计数据 http://sideeffect.kr/popularconvention#javascript
 
 * 文件名
 * 通用
-* javascript
+* jshint检查配置项
+* javascript代码风格
 	* 分号
 	* 空格
 	* 空行
@@ -16,7 +17,6 @@ Github上的统计数据 http://sideeffect.kr/popularconvention#javascript
 	* 括号
 	* undefined
 	* 其他
-* jshint配置
 
 ##文件名
 小写、下划线
@@ -35,7 +35,48 @@ Github上的统计数据 http://sideeffect.kr/popularconvention#javascript
 </html>
 ```
 
-##javascript
+###jshint配置
+http://jshint.com/docs/options/
+http://bubkoo.com/2014/02/22/JSHint-options/
+```
+{
+    //强制选项 不符合就报错
+    "curly": true, // 循环和条件判断的代码块中总是使用大括号包围
+    "freeze": true, // 禁止重写原生对象的原型
+    "indent": true, // 代码缩进，jshint后续版本建废弃，现有版本不会告警
+    "latedef": "nofunc", // 禁止定义之前使用变量，忽略 function 函数声明
+    "unused": true, // 定义的变量未使用
+    "newcap": true, // 构造器函数首字母大写
+    "maxlen": 100, // 一行的最大长度
+    
+    //宽松选项 不符合也不报错
+    "shadow": "inner", // 在不同作用域重复定义变量
+    "evil": true, // 使用eval
+    "expr": true, // 应该出现赋值或函数调用的地方使用表达式 比如 a === "test" ? func1() : func2();
+    "proto": true, // __proto__属性的使用
+    "scripturl": true, // 允许href="javascript:xxx"
+    "sub": true, // 兼容obj.prop和obj["prop"]
+
+    //预定义的全局变量
+    "browser": true,
+    "devel": true,
+    "jquery": true,
+    "nonstandard": true,
+    "typed": true,
+    "worker": true,
+
+    "globals": {
+        "define": true,
+        "require": true,
+        "exports": true,
+        "module": true,
+        "TGP": true
+    }
+}
+
+```
+
+##javascript代码风格
 
 ### 以下几种情况后需加分号：变量声明、表达式、return、throw、break、continue、do-while
 ```
@@ -472,47 +513,7 @@ if (condition) {
 }
 ```
 
-###jshint配置
-http://jshint.com/docs/options/
-http://bubkoo.com/2014/02/22/JSHint-options/
-```
-{
-    //强制选项 不符合就报错
-    "curly": true, // 循环和条件判断的代码块中总是使用大括号包围
-    "freeze": true, // 禁止重写原生对象的原型
-    "indent": true, // 代码缩进，jshint后续版本建废弃，现有版本不会告警
-    "latedef": "nofunc", // 禁止定义之前使用变量，忽略 function 函数声明
-    "unused": true, // 定义的变量未使用
-    "newcap": true, // 构造器函数首字母大写
-    "maxlen": 100, // 一行的最大长度
-    
-    //宽松选项 不符合也不报错
-    "shadow": "inner", // 在不同作用域重复定义变量
-    "evil": true, // 使用eval
-    "expr": true, // 应该出现赋值或函数调用的地方使用表达式 比如 a === "test" ? func1() : func2();
-    "proto": true, // __proto__属性的使用
-    "scripturl": true, // 允许href="javascript:xxx"
-    "sub": true, // 兼容obj.prop和obj["prop"]
-
-    //预定义的全局变量
-    "browser": true,
-    "devel": true,
-    "jquery": true,
-    "nonstandard": true,
-    "typed": true,
-    "worker": true,
-
-    "globals": {
-        "define": true,
-        "require": true,
-        "exports": true,
-        "module": true,
-        "TGP": true
-    }
-}
-
-```
-
+###参考阅读
 - Code Guide by @AlloyTeam  http://alloyteam.github.io/CodeGuide/#javascript
 - Airbnb JavaScript Style Guide() { https://github.com/airbnb/javascript
 - 书写具备一致风格、通俗易懂 JavaScript 的原则 https://github.com/rwaldron/idiomatic.js/tree/master/translations/zh_CN
