@@ -4,7 +4,7 @@
 * 通用
 * jshint检查配置项
 	- https://github.com/seektan/jsstyle/blob/master/.jshintrc 
-* javascript代码风格
+* javascript代码书写风格
 	* 分号
 	* 空格
 	* 空行
@@ -37,8 +37,6 @@
 
 ###jshint配置
 个人配置编辑器的jshint插件，应用以下参数
-http://jshint.com/docs/options/
-http://bubkoo.com/2014/02/22/JSHint-options/
 ```
 {
     //强制选项 不符合就报错
@@ -76,8 +74,11 @@ http://bubkoo.com/2014/02/22/JSHint-options/
 }
 
 ```
+###参考地址
+- http://jshint.com/docs/options/
+- http://bubkoo.com/2014/02/22/JSHint-options/
 
-##javascript代码风格
+##javascript代码书写风格
 
 ### 以下几种情况后需加分号：变量声明、表达式、return、throw、break、continue、do-while
 ```
