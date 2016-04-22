@@ -7,7 +7,7 @@
         require: true,
         exports: true,
         module: true,
-        TGP: true,
+        TGP: true
     },
     "latedef": true,
     "newcap": true,
