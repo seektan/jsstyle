@@ -51,7 +51,6 @@
     
     //宽松选项 不符合也不报错
     "shadow": "inner", // 在不同作用域重复定义变量
-    "evil": true, // 使用eval
     "expr": true, // 应该出现赋值或函数调用的地方使用表达式 比如 a === "test" ? func1() : func2();
     "proto": true, // __proto__属性的使用
     "scripturl": true, // 允许href="javascript:xxx"
