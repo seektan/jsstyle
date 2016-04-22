@@ -36,6 +36,7 @@
 ```
 
 ###jshint配置
+个人配置编辑器的jshint插件，应用以下参数
 http://jshint.com/docs/options/
 http://bubkoo.com/2014/02/22/JSHint-options/
 ```
