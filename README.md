@@ -1,4 +1,4 @@
-# Web前端规范
+# Web开发代码风格规范
 
 * 文件名
 * 通用
@@ -23,7 +23,7 @@
 *  web_game.html
 *  web_game.css
 *  web_game.js
-*  StaticSlider.js 模块化
+*  StaticSlider.js 模块化根据具体情况特殊处理
 
 ##通用
 *  缩进使用soft tab（4个空格），可使用编辑器自动转换
@@ -57,14 +57,14 @@
     "sub": true, // 兼容obj.prop和obj["prop"]
 
     //预定义的全局变量
-    "browser": true,
-    "devel": true,
-    "jquery": true,
-    "nonstandard": true,
-    "typed": true,
-    "worker": true,
+    "browser": true, // 预定义全局变量 document，navigator，FileReader
+    "devel": true, // 定义用于调试的全局变量：console，alert
+    "jquery": true, // jquery
+    "nonstandard": true, // 非标准的escape 、 unescape
+    "typed": true, // Int8Array 、ArrayBuffer等类型数字
+    "worker": true, // Web Workers
 
-    "globals": {
+    "globals": { // 业务相关
         "define": true,
         "require": true,
         "exports": true,
