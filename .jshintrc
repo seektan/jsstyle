@@ -3,7 +3,11 @@
     "freeze": true,
     "indent": true,
     "globals": {
-
+        define: true,
+        require: true,
+        exports: true,
+        module: true,
+        TGP: true,
     },
     "latedef": true,
     "newcap": true,
