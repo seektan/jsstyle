@@ -3,6 +3,7 @@
 * 文件名
 * 通用
 * jshint检查配置项
+	- https://github.com/seektan/jsstyle/blob/master/.jshintrc 
 * javascript代码风格
 	* 分号
 	* 空格
