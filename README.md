@@ -1,5 +1,4 @@
 # Web前端规范
-Github上的统计数据 http://sideeffect.kr/popularconvention#javascript
 
 * 文件名
 * 通用
@@ -514,6 +513,7 @@ if (condition) {
 ```
 
 ###参考阅读
+- Github上的统计数据 http://sideeffect.kr/popularconvention#javascript
 - Code Guide by @AlloyTeam  http://alloyteam.github.io/CodeGuide/#javascript
 - Airbnb JavaScript Style Guide() { https://github.com/airbnb/javascript
 - 书写具备一致风格、通俗易懂 JavaScript 的原则 https://github.com/rwaldron/idiomatic.js/tree/master/translations/zh_CN
