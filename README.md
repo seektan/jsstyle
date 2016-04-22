@@ -494,7 +494,38 @@ if (condition) {
 
 ###jshint
 http://bubkoo.com/2014/02/22/JSHint-options/
+```
+{
+    "curly": true,//大括号
+    "eqeqeq": true,//===
+    "forin": true,//hasOwnProperty
+    "freeze": true,//禁止复写原生对象
+    "globals": {
 
+    },
+    "latedef": true,
+    "maxerr": 200,
+    "nonew": true,
+    "shadow": "inner",
+    "singleGroups": true,
+    "undef": true,
+    "unused": true,
+
+    "evil": true,
+    "expr": true,
+    "proto": true,
+    "scripturl": true,
+    "sub": true,
+
+    "browser": true,
+    "devel": true,
+    "jquery": true,
+    "nonstandard": true,
+    "typed": true,
+    "worker": true
+}
+
+```
 
 - Code Guide by @AlloyTeam  http://alloyteam.github.io/CodeGuide/#javascript
 - Airbnb JavaScript Style Guide() { https://github.com/airbnb/javascript
