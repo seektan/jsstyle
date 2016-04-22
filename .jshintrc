@@ -1,19 +1,16 @@
 {
     "curly": true,
-    "eqeqeq": true,
-    "forin": true,
     "freeze": true,
+    "indent": true,
     "globals": {
 
     },
     "latedef": true,
-    "maxerr": 200,
-    "nonew": true,
-    "shadow": "inner",
-    "singleGroups": true,
-    "undef": true,
+    "newcap": true,
     "unused": true,
-
+    "maxlen": 100,
+    
+    "shadow": "inner",
     "evil": true,
     "expr": true,
     "proto": true,
