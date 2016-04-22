@@ -8,7 +8,6 @@
     "maxlen": 100,
     
     "shadow": "inner",
-    "evil": true,
     "expr": true,
     "proto": true,
     "scripturl": true,
