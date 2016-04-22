@@ -1,7 +1,6 @@
 # Web前端规范
 Github上的统计数据 http://sideeffect.kr/popularconvention#javascript
 
-* 文件路径
 * 文件名
 * 通用
 * javascript
@@ -17,26 +16,7 @@ Github上的统计数据 http://sideeffect.kr/popularconvention#javascript
 	* 括号
 	* undefined
 	* 其他
-
-##文件路径
-###大界面
-- frames
-- common
-- center
-	- gamelibrary
-	- gift
-	- privilege
-	- toolbox
-	- sociality
-
-###助手
-- pallas
-- cf
-- dnf
-
-**目录**与上报路径统一
-- [ ] /gamelibrary/mmog.html
-- [ ] \center\plat\gamelibrary\MMOG.html
+* jshint配置
 
 ##文件名
 小写、下划线
@@ -492,37 +472,43 @@ if (condition) {
 }
 ```
 
-###jshint
+###jshint配置
+http://jshint.com/docs/options/
 http://bubkoo.com/2014/02/22/JSHint-options/
 ```
 {
-    "curly": true,//大括号
-    "eqeqeq": true,//===
-    "forin": true,//hasOwnProperty
-    "freeze": true,//禁止复写原生对象
-    "globals": {
+    //强制选项 不符合就报错
+    "curly": true, // 循环和条件判断的代码块中总是使用大括号包围
+    "freeze": true, // 禁止重写原生对象的原型
+    "indent": true, // 代码缩进，jshint后续版本建废弃，现有版本不会告警
+    "latedef": "nofunc", // 禁止定义之前使用变量，忽略 function 函数声明
+    "unused": true, // 定义的变量未使用
+    "newcap": true, // 构造器函数首字母大写
+    "maxlen": 100, // 一行的最大长度
+    
+    //宽松选项 不符合也不报错
+    "shadow": "inner", // 在不同作用域重复定义变量
+    "evil": true, // 使用eval
+    "expr": true, // 应该出现赋值或函数调用的地方使用表达式 比如 a === "test" ? func1() : func2();
+    "proto": true, // __proto__属性的使用
+    "scripturl": true, // 允许href="javascript:xxx"
+    "sub": true, // 兼容obj.prop和obj["prop"]
 
-    },
-    "latedef": true,
-    "maxerr": 200,
-    "nonew": true,
-    "shadow": "inner",
-    "singleGroups": true,
-    "undef": true,
-    "unused": true,
-
-    "evil": true,
-    "expr": true,
-    "proto": true,
-    "scripturl": true,
-    "sub": true,
-
+    //预定义的全局变量
     "browser": true,
     "devel": true,
     "jquery": true,
     "nonstandard": true,
     "typed": true,
-    "worker": true
+    "worker": true,
+
+    "globals": {
+        "define": true,
+        "require": true,
+        "exports": true,
+        "module": true,
+        "TGP": true
+    }
 }
 
 ```
