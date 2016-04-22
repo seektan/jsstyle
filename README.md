@@ -36,8 +36,8 @@
 ```
 
 ###jshint配置
-个人配置编辑器的jshint插件，应用以下参数
-配置文件地址：https://github.com/seektan/jsstyle/blob/master/.jshintrc 
+* 个人配置编辑器的jshint插件，应用以下参数
+* 配置文件地址：https://github.com/seektan/jsstyle/blob/master/.jshintrc 
 ```
 {
     //强制选项 不符合就报错
